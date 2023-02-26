@@ -81,7 +81,7 @@ def fun9(x):
 given=int(input("enter any number:"))
 fun9(given)
 
-print("---------------------------simple input data in funtion--")
+print("---------------------------simple string input data in funtion--")
 
 def fun10(x):
     print(x)
@@ -104,6 +104,20 @@ def fun12(math):
     print("sum is: ",6*math)
 enter=int(input("input a number: "))
 fun12(enter)
+
+
+
+# def fun(x):
+#     print("result is:",x*5);
+# s=int(input("enter a number:"));
+# fun(s)
+
+
+# def fun(x):
+#     print("result is:",x*5);
+# s=str(input("enter a name:"));
+# fun(s)
+
 
 print("----------------------------------------------------using a build-in math formula--")
 
@@ -2504,6 +2518,11 @@ def myfunction():
 #.........................................Python Lambda......................
 #Syntax
 #lambda arguments : expression
+
+# x=lambda a:a
+# print(x(100))
+
+
 x = lambda a : a + 10
 print(x(5))
 #A lambda function that multiplies argument a with argument b and print the result:
@@ -2538,7 +2557,7 @@ mytripler = myfunc(3)
 print(mydoubler(11))
 print(mytripler(11))
 """ 
-with open('pactics/hello.txt','a') as a:
-    lol=a.append('lamyaa')
-    print(lol)
+# with open('pactics/hello.txt','a') as a:
+#     lol=a.append('lamyaa')
+#     print(lol)
     

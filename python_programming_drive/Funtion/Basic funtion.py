@@ -46,9 +46,3 @@ person(name='mahmud',age=25,country='uk')
 person(name='mahmud',age=24)  # use key ward argument with by default country
 person('mahmud',24) # use position argument with by default country
 
-# return value funtion
-def mh(x,y):
-
-   # return 2
-#print(mh)
-mh(2,3)
