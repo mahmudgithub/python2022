@@ -290,3 +290,26 @@
 # fun("mahmud",28,1)
 
 
+# class car:
+#     def __init__(self,color, make,model):
+#         self.color=color
+#         self.make=make
+#         self.model=model 
+#         self.is_running=False
+
+#     def star_engine(self):
+#         if not self.is_running:
+#             self.is_running=True
+#             print("the engine is now running.")
+#         else:
+#             print("the engine is readay.")
+    
+#     def accelerate(self):
+#         is self.is_running:
+
+
+
+
+with open ('example.py','r') as file:
+    content=file.read()
+    print(content)
